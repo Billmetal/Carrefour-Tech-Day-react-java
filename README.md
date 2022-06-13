@@ -1,5 +1,12 @@
 # Nossas Ofertas
 
+Frontend do projeto Nossas ofertas para o Carrefour Tech Day , feito em React
+
+## Abordagem de desenvolvimento
+
+- Usado Redux para manipular o cep recebido e as informações recebidas da API de [backend](branch backend) 
+
+- Usado Axios para consumir API de backend
 
 ## Getting Started with Create React App
 
