@@ -1,6 +1,16 @@
 # Nossas Ofertas
-Backend do projeto para Tech Day Carrefour
+Backend do projeto para Tech Day Carrefour, desenvolvido em java com Springboot e WebFlux
 
+## Abordagem de desenvolvimento
+
+- Recebendo um cep do [frontend](branch frontend) via @PostMapping e concatenando em link para API carrefour e receber o nome 
+das lojas mais próximas via WebClient do pacote do WebFlux.
+
+- Com o nome da loja mais próxima , é concatenado com outro endpoint da API carrefour para receber a lista de produtos ,
+também via WebClient do pacote do WebFlux.
+
+- Foi usado JSONObject da dependencia configuration-processor para manipular informações especificas da lista de produtos
+recebida e modelar o envio das informações para o frontend .
 
 ## Help Me
 ### Reference Documentation
